@@ -1,11 +1,5 @@
 package info.deepidea.designpatterns.creational.singleton;
 
-
-import org.junit.Test;
-
-/**
- * Created by emix on 12/30/14.
- */
 public class SingletonFinalWrapperUser {
     private SingletonFinalWrapper<Helper> helperWrapper;
 
@@ -22,7 +16,7 @@ public class SingletonFinalWrapperUser {
         return wrapper.value;
     }
 
-    @Test
+//    @Test
     public void test() {
         System.out.println(0.9 * 0.05 + 0.47 * 0.05);
 //        Arrays.sort(null);
