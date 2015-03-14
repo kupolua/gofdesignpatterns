@@ -1,8 +1,5 @@
 package info.deepidea.designpatterns.structural.flyweight;
 
-/**
- * Created by pavelkulakovsky on 12.03.15.
- */
 public class CoffeeFlavour {
     private final String name;
 

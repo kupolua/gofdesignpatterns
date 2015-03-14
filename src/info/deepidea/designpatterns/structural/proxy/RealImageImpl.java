@@ -1,9 +1,9 @@
 package info.deepidea.designpatterns.structural.proxy;
 
-public class RealImage implements Image {
+public class RealImageImpl implements Image {
     private String fileName;
 
-    public RealImage(String fileName){
+    public RealImageImpl(String fileName){
         this.fileName = fileName;
         loadFromDisk(fileName);
     }
